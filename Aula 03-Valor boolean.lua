@@ -1,19 +1,19 @@
--- boolean só pode assumir dois possiveis valores:
+-- boolean sÃ³ pode assumir dois possiveis valores:
 -- VERDADEIRO OU FALSO
--- treu
+-- true
 -- false
 
  estaAtivo = false
 
  print(estaAtivo)
 
- --== é o sinal de comparação de igualdade.
- --== compara se alguma coisa é igual a outra.
+ --== Ã© o sinal de comparaÃ§Ã£o de igualdade.
+ --== compara se alguma coisa Ã© igual a outra.
  print(estaAtivo == false)
 
  estaInativo = true
  print("Valor de estaInativo: ".. tostring(estaInativo))
- print("Está inativo? " .. tostring(estaInativo == true))
+ print("EstÃ¡ inativo? " .. tostring(estaInativo == true))
 
 
  --[[
@@ -27,9 +27,9 @@
  ]]--
 
  --[[
- tostring vem do inglês TO STRING, ou seja, PARA STRING
+ tostring vem do inglÃªs TO STRING, ou seja, PARA STRING
  tostring(true) ==>"true"
 
- Converte o número 123 ara o texto "123":
+ Converte o nÃºmero 123 ara o texto "123":
  tostring(123) ==> "123"
  ]]--
